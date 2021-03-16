@@ -3,7 +3,7 @@ let FOLDER_URL = '';
 function onOpen(e){
   SpreadsheetApp.getUi()
   .createMenu("Генерация XML")
-  .addItem("Подготовить XML файл", "SaveXML")
+  .addItem("Подготовка XML файл", "SaveXML")
   .addToUi();
 }
 
